@@ -1,0 +1,5 @@
+.DS_Store
+/bin/RenameNDIOutputs.app
+/bin/RenameNDIOutputsDebug.app
+/RenameNDIOutputs.xcodeproj/project.xcworkspace/xcuserdata
+/RenameNDIOutputs.xcodeproj/xcuserdata
