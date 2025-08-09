@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxNDI\src\ofxNDIFinder.cpp">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxNDI\src\ofxNDIFrame.cpp">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxNDI\src\ofxNDIPTZ.cpp">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxNDI\src\ofxNDIReceiver.cpp">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxNDI\src\ofxNDIRecorder.cpp">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxNDI\src\ofxNDIRecvStream.cpp">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxNDI\src\ofxNDIRouter.cpp">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxNDI\src\ofxNDISender.cpp">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxNDI\src\ofxNDISendStream.cpp">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxNDI\src\utils\ofxNDIVideoCaster.cpp">
+			<Filter>local_addons\ofxNDI\src\utils</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxNDI\src\utils\ofxNDIVideoGrabber.cpp">
+			<Filter>local_addons\ofxNDI\src\utils</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxImGui\src\BaseEngine.cpp">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxImGui\src\DefaultTheme.cpp">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxImGui\src\EngineGLFW.cpp">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxImGui\src\EngineOpenGLES.cpp">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxImGui\src\EngineVk.cpp">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxImGui\src\Gui.cpp">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxImGui\src\ImHelpers.cpp">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxImGui\src\ofxImGuiLoggerChannel.cpp">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxImGui\libs\imgui\src\imgui.cpp">
+			<Filter>local_addons\ofxImGui\libs\imgui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxImGui\libs\imgui\src\imgui_demo.cpp">
+			<Filter>local_addons\ofxImGui\libs\imgui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxImGui\libs\imgui\src\imgui_draw.cpp">
+			<Filter>local_addons\ofxImGui\libs\imgui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="addons\ofxImGui\libs\imgui\src\imgui_widgets.cpp">
+			<Filter>local_addons\ofxImGui\libs\imgui\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons">
+			<UniqueIdentifier>{652D9A42--3EE-5-44-8E-8-510-C18B6C328F78}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxNDI">
+			<UniqueIdentifier>{A4856503--AC7-5-4E-C4-A-A47-E1E994112C7F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxNDI\src">
+			<UniqueIdentifier>{2C2B4A15--D65-A-4E-82-8-AF1-706C162CA9D1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxNDI\src\utils">
+			<UniqueIdentifier>{F2DBE4AC--DAA-D-4E-FC-9-778-224A30F4A433}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxNDI\libs">
+			<UniqueIdentifier>{C86EEC93--7B8-9-49-39-B-FC3-E362D9AAE71D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxNDI\libs\NDI">
+			<UniqueIdentifier>{2DF1C1A9--773-1-45-0A-8-24D-762FD83DB837}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxNDI\libs\NDI\include">
+			<UniqueIdentifier>{DFC34155--C6E-2-42-67-A-ADC-B1CE843BDECA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxNDI\libs\utils">
+			<UniqueIdentifier>{32C5D67F--D03-1-4D-01-8-A29-91D59DA7B7D3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxImGui">
+			<UniqueIdentifier>{5E572C73--5C2-C-4D-5B-A-00D-C9A03B1E6BAE}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxImGui\src">
+			<UniqueIdentifier>{9D9EDC54--16F-9-43-89-8-D54-8D99903CE107}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxImGui\libs">
+			<UniqueIdentifier>{4B481215--F64-D-4E-E5-B-0C5-B3FA309C7C04}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxImGui\libs\imgui">
+			<UniqueIdentifier>{88580B16--751-3-4C-92-8-16A-11F7834098F9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="local_addons\ofxImGui\libs\imgui\src">
+			<UniqueIdentifier>{66CE0361--3EE-A-4F-BB-8-540-E198D7E326B4}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\src\ofxNDI.h">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\src\ofxNDIFinder.h">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\src\ofxNDIFrame.h">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\src\ofxNDIPTZ.h">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\src\ofxNDIReceiver.h">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\src\ofxNDIRecorder.h">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\src\ofxNDIRecvStream.h">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\src\ofxNDIRouter.h">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\src\ofxNDISender.h">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\src\ofxNDISendStream.h">
+			<Filter>local_addons\ofxNDI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\src\utils\ofxNDIVideoCaster.h">
+			<Filter>local_addons\ofxNDI\src\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\src\utils\ofxNDIVideoGrabber.h">
+			<Filter>local_addons\ofxNDI\src\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\NDI\include\Processing.NDI.compat.h">
+			<Filter>local_addons\ofxNDI\libs\NDI\include</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\NDI\include\Processing.NDI.deprecated.h">
+			<Filter>local_addons\ofxNDI\libs\NDI\include</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\NDI\include\Processing.NDI.DynamicLoad.h">
+			<Filter>local_addons\ofxNDI\libs\NDI\include</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\NDI\include\Processing.NDI.Find.h">
+			<Filter>local_addons\ofxNDI\libs\NDI\include</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\NDI\include\Processing.NDI.FrameSync.h">
+			<Filter>local_addons\ofxNDI\libs\NDI\include</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\NDI\include\Processing.NDI.Lib.cplusplus.h">
+			<Filter>local_addons\ofxNDI\libs\NDI\include</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\NDI\include\Processing.NDI.Lib.h">
+			<Filter>local_addons\ofxNDI\libs\NDI\include</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\NDI\include\Processing.NDI.Recv.ex.h">
+			<Filter>local_addons\ofxNDI\libs\NDI\include</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\NDI\include\Processing.NDI.Recv.h">
+			<Filter>local_addons\ofxNDI\libs\NDI\include</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\NDI\include\Processing.NDI.Routing.h">
+			<Filter>local_addons\ofxNDI\libs\NDI\include</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\NDI\include\Processing.NDI.Send.h">
+			<Filter>local_addons\ofxNDI\libs\NDI\include</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\NDI\include\Processing.NDI.structs.h">
+			<Filter>local_addons\ofxNDI\libs\NDI\include</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\NDI\include\Processing.NDI.utilities.h">
+			<Filter>local_addons\ofxNDI\libs\NDI\include</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxNDI\libs\utils\DoubleBuffer.h">
+			<Filter>local_addons\ofxNDI\libs\utils</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\src\BaseEngine.h">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\src\BaseTheme.h">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\src\DefaultTheme.h">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\src\EngineGLFW.h">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\src\EngineOpenGLES.h">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\src\EngineVk.h">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\src\Gui.h">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\src\imconfig.h">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\src\ImHelpers.h">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\src\ofxImGui.h">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\src\ofxImGuiLoggerChannel.h">
+			<Filter>local_addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\libs\imgui\src\imgui.h">
+			<Filter>local_addons\ofxImGui\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\libs\imgui\src\imgui_internal.h">
+			<Filter>local_addons\ofxImGui\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\libs\imgui\src\imstb_rectpack.h">
+			<Filter>local_addons\ofxImGui\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\libs\imgui\src\imstb_textedit.h">
+			<Filter>local_addons\ofxImGui\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="addons\ofxImGui\libs\imgui\src\imstb_truetype.h">
+			<Filter>local_addons\ofxImGui\libs\imgui\src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

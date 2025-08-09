@@ -1,5 +1,5 @@
 // Icon Resource Definition
-#include "resource.h"
+#define MAIN_ICON                       102
 
 #if defined(_DEBUG)
 MAIN_ICON               ICON                    "icon.ico"
