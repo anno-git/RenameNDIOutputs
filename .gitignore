@@ -3,3 +3,4 @@
 /bin/RenameNDIOutputsDebug.app
 /RenameNDIOutputs.xcodeproj/project.xcworkspace/xcuserdata
 /RenameNDIOutputs.xcodeproj/xcuserdata
+bin/data/settings.json

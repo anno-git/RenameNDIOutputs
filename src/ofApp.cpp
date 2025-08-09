@@ -4,7 +4,7 @@
 void ofApp::setup(){
     gui.setup();
     updateListSources();
-    
+    loadSettings();
     ofSetWindowTitle("Rename NDI Outputs");
 }
 
@@ -17,6 +17,16 @@ void ofApp::update(){
 void ofApp::draw(){
     gui.begin();
     ImGui::Begin("router");
+    if(ImGui::Button("save"))
+    {
+        saveSettings();
+    }
+    ImGui::SameLine();
+    if(ImGui::Button("load"))
+    {
+        loadSettings();
+    }
+    ImGui::Separator();
     if(ImGui::Button("update source list"))
     {
         updateListSources();
@@ -124,6 +134,62 @@ void ofApp::exit(){
 void ofApp::updateListSources()
 {
     sources = ofxNDI::listSources();
+}
+
+//--------------------------------------------------------------
+void ofApp::saveSettings()
+{
+    ofJson json;
+    for(int i = 0; i < routers.size(); i++)
+    {
+        json["routers"][i]["name"] = routers_names[i];
+        json["routers"][i]["source"] = selected_sources[i];
+    }
+    ofSaveJson("settings.json", json);
+}
+
+//--------------------------------------------------------------
+void ofApp::loadSettings()
+{
+    ofFile file("settings.json");
+    if(file.exists())
+    {
+        ofJson json;
+        json << file;
+        if(json.find("routers") != json.end())
+        {
+            updateListSources();
+            routers.clear();
+            routers_names.clear();
+            selected_sources.clear();
+            for(int i = 0; i < json["routers"].size(); i++)
+            {
+                string name = json["routers"][i]["name"];
+                string source = json["routers"][i]["source"];
+                if(name.size() > 0)
+                {
+                    bool found = false;
+                    for(auto& s: sources)
+                    {
+                        if(s.p_ndi_name == source)
+                        {
+                            routers.push_back(ofxNDIRouter());
+                            routers_names.push_back(name);
+                            selected_sources.push_back(source);
+                            routers.back().setup(name);
+                            routers.back().setRoute(s);
+                            found = true;
+                            break;
+                        }
+                    }
+                    if(!found)
+                    {
+                        ofLogWarning("RenameNDIOutputs") << "source:" << source << " not found.";
+                    }
+                }
+            }
+        }
+    }
 }
 
 //--------------------------------------------------------------

@@ -20,6 +20,9 @@ public:
     void exit() override;
     
     void updateListSources();
+    
+    void saveSettings();
+    void loadSettings();
 
     void keyPressed(int key) override;
     void keyReleased(int key) override;
